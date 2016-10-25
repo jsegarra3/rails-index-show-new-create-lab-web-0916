@@ -1,3 +1,12 @@
+# == Schema Information
+#
+# Table name: coupons
+#
+#  id          :integer          not null, primary key
+#  coupon_code :string
+#  store       :string
+#
+
 require 'rails_helper'
 
 describe Coupon do
